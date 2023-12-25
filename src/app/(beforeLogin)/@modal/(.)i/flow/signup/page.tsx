@@ -1,9 +1,9 @@
 import SignupModal from "@/app/(beforeLogin)/_component/SignupModal";
 
-export default function Home() {
+export default function Signup() {
   return (
     <>
-      <h2>원본</h2>
+      <h2> Intercepting Routes</h2>
       <SignupModal />
     </>
   );
