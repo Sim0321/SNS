@@ -11,7 +11,6 @@ type Props = { children: ReactNode };
 
 export default function TabProvider({ children }: Props) {
   const [tab, setTab] = useState("rec");
-  console.log(tab);
   return (
     <TabContext.Provider value={{ tab, setTab }}>
       {children}
