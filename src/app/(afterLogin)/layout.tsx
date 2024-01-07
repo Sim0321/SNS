@@ -21,6 +21,7 @@ export default function AfterLoginLayout({ children, modal }: Props) {
                 <Image src={logo} alt="z.com로고" width={40} height={40} />
               </div>
             </Link>
+
             <nav>
               <ul>
                 <NavMenu />
@@ -38,6 +39,7 @@ export default function AfterLoginLayout({ children, modal }: Props) {
                 </svg>
               </Link>
             </nav>
+
             <LogoutButton />
           </div>
         </section>
